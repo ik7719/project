@@ -1,43 +1,36 @@
 import java.util.Scanner;
 
 public class Bus {
-    int passengerMax;
-    int passengerCurrent;
-    int fee;
-    int bus1;
-    int oil;
-    int speed;
-    String condition;
+    private int passengerMax;
+    private int passengerCurrent;
+    private int fee;
+    private int busNumber;
+    private int oil;
+    private int speed;
+    private BusCondition condition;
 
-    public void main(){
-        passengerMax = 20;
-        passengerCurrent = 0;
-        fee = 1000;
-        bus1 = 5530;
-        oil = 0;
-        speed = 0;
-        condition = "운행";
-
-    }
-
-    public void stop(){
-
+    public Bus(){
+        this.passengerMax = 20;
+        this.passengerCurrent = 0;
+        this.fee = 1000;
+        this.busNumber = 5530;
+        this.oil = 20;
+        this.speed = 0;
     }
 
     public void drive(){
-        if(condition == BusCondition.Stop.condition){
-            System.out.println("차고지행 상태입니다.");
+        if(condition == BusCondition.차고지행 || oil < 10){
             return;
         }
-
+        condition = BusCondition.운행;
     }
 
     public void conditionChange(){
         if (oil < 10) {
+            condition = BusCondition.차고지행;
             System.out.println("주유가 필요합니다");
             return ;
         }
-
     }
 
     public void ride(){
