@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b42d075-c693-4837-93e8-3837309554ac" name="변경" comment="중간 저장">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="0b42d075-c693-4837-93e8-3837309554ac" name="변경" comment="실행 오류 전 저장">
       <change beforePath="$PROJECT_DIR$/src/main/java/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusCondition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652878325077</updated>
-      <workItem from="1652878326486" duration="9381000" />
+      <workItem from="1652878326486" duration="10206000" />
     </task>
     <task id="LOCAL-00001" summary="bus 프로젝트(new) 시작">
       <created>1652878674724</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652886669756</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="실행 오류 전 저장">
+      <created>1652887893461</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652887893461</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +137,7 @@
     <MESSAGE value="bus 프로젝트(new) 세팅 수정 전" />
     <MESSAGE value="최소 상태 '운행'" />
     <MESSAGE value="중간 저장" />
-    <option name="LAST_COMMIT_MESSAGE" value="중간 저장" />
+    <MESSAGE value="실행 오류 전 저장" />
+    <option name="LAST_COMMIT_MESSAGE" value="실행 오류 전 저장" />
   </component>
 </project>
