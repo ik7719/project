@@ -1,3 +1,3 @@
-public enum BusCondition {
+//public enum BusCondition {
     운행, 차고지행
 }
