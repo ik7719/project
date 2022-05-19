@@ -1,21 +1,23 @@
 import java.util.Scanner;
+import java.util.UUID;
 
 public class Bus {
     private int passengerMax;
     private int passengerCurrent;
     private int fee;
-    private int busNumber;
+    private String busNumber;
     private int oil;
     private int speed;
     private BusCondition condition;
+    private String uuid = UUID.randomUUID().toString();
 
     public Bus(int oil, int speed, int passengerMax, int passengerCurrent){
         this.passengerMax = passengerMax;
         this.passengerCurrent = passengerCurrent;
         this.fee = 1000;
-        this.busNumber = 5530;
         this.oil = oil;
         this.speed = speed;
+        this.busNumber = uuid;
     }
 
     public void drive(){

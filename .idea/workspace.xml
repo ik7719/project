@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b42d075-c693-4837-93e8-3837309554ac" name="변경" comment="실행 오류 전 저장">
+    <list default="true" id="0b42d075-c693-4837-93e8-3837309554ac" name="변경" comment="완료, 추가 작업은 추후에">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -78,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652878325077</updated>
-      <workItem from="1652878326486" duration="10206000" />
+      <workItem from="1652878326486" duration="11696000" />
     </task>
     <task id="LOCAL-00001" summary="bus 프로젝트(new) 시작">
       <created>1652878674724</created>
@@ -115,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652887893461</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="완료, 추가 작업은 추후에">
+      <created>1652888845656</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652888845656</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +146,7 @@
     <MESSAGE value="최소 상태 '운행'" />
     <MESSAGE value="중간 저장" />
     <MESSAGE value="실행 오류 전 저장" />
-    <option name="LAST_COMMIT_MESSAGE" value="실행 오류 전 저장" />
+    <MESSAGE value="완료, 추가 작업은 추후에" />
+    <option name="LAST_COMMIT_MESSAGE" value="완료, 추가 작업은 추후에" />
   </component>
 </project>
